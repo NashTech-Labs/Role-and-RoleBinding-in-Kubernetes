@@ -12,3 +12,9 @@ For example- “reader role in default namespace” this means that i wanted to 
 ### Verify the namespace
 
 `kubectl get namespaces`
+
+### Create a service account within the namespace(in my case the namesapce is testing, you can write any name of your choice)
+
+`kubectl create serviceaccount test-account -n testing`
+
+This is the imperative way of creating service account, you can also use the yaml file present in the repository with name [svc-acc.yaml]
