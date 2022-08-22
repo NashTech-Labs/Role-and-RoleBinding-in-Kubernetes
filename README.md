@@ -11,4 +11,4 @@ For example- “reader role in default namespace” this means that i wanted to 
 
 ### Verify the namespace
 
-'kubectl get namespaces'
+`kubectl get namespaces`
