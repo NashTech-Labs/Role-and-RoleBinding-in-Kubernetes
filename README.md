@@ -33,6 +33,8 @@ This is the imperative way of creating service account, you can also use the yam
 
 `kubectl create role my-role -n testing --verb=create --resource=secret --resource=configmap`
 
+Verb acts as a permission like what permission i wanted to give to this role. Resources is for which resources i wanted to create this role and attach verb
+
 You can write yaml file also to create this role [check role.yaml in repository]
 
 ### Check the Role
