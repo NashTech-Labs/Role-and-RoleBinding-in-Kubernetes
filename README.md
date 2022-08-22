@@ -54,6 +54,8 @@ How it works- within the namespace, their is a role and service account, then wh
 `kubectl create rolebinding bind-role -n testing --role my-role --serviceaccount=testing:test-account`
 
 You can write yaml file also [role-binding.yaml]
+ 
+ For more information about role binding type `kubectl create rolebinding -h`
 
 ### Check the Role Binding
 
