@@ -7,6 +7,10 @@ Role is an access policy “rules of resources” that means you have a resource
 
 For example- “reader role in default namespace” this means that i wanted to create “reader” role in default namespace or I wanted to create a role with “configmap update” in default namespace. 
 
+### PREREQUISITE
+
+Kubernetes Cluster
+
 ### First, you have to create a namespace
 
 `kubectl create namespace testing`
