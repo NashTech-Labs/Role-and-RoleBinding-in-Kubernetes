@@ -8,3 +8,7 @@ For example- “reader role in default namespace” this means that i wanted to 
 ### First, you have to create a namespace
 
 `kubectl create namespace testing`
+
+### Verify the namespace
+
+'kubectl get namespaces'
